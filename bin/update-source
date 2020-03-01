@@ -1,0 +1,7 @@
+#!/bin/bash
+
+rm -rf /opt/sisko-alita
+cd /tmp && \
+git clone https://github.com/aefw/sisko-alita.git /opt/sisko-alita
+rm -rf /root/Arduino/libraries/
+mv /opt/sisko-alita/libraries /root/Arduino/
